@@ -5,6 +5,7 @@ import * as express from "express";
 import * as bodyParser from "body-parser";
 import {AppRoutes} from "./routes";
 var cors = require('cors');
+import authMiddleware from "./Middlewares/auth.js";
 
 // create connection with database
 // note that it's not active database connection

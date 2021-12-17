@@ -4,7 +4,7 @@
   "port": 3306,
   "username": "root",
   "password": "",
-  "database": "teste",
+  "database": "todo-ubistart",
   "synchronize": true,
   "entities": [
     "dist/entity/*.js"
